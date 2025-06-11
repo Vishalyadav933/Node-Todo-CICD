@@ -1,9 +1,10 @@
 {
   "name": "node-todo-cicd",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js TODO app with CI/CD pipeline",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +12,13 @@
     "url": "git+https://github.com/Vishalyadav933/Node-Todo-CICD.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vishal Yadav",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vishalyadav933/Node-Todo-CICD/issues"
   },
-  "homepage": "https://github.com/Vishalyadav933/Node-Todo-CICD#readme"
+  "homepage": "https://github.com/Vishalyadav933/Node-Todo-CICD#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
